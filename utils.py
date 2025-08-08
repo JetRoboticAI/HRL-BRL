@@ -1,14 +1,3 @@
-#
-# School of Continuing Studies, University of Toronto
-# 3547 TERM PROJECT
-# Intelligent Systems and Reinforcement Learning
-# Robot obstacle avoidance with reinforcement learning
-#
-# Alexandre Dietrich
-# Ankur Tyagi
-# Haitham Alamri
-# Rodolfo Vasconcelos
-#
 
 '''
 Utility functions used by several other files
@@ -393,4 +382,5 @@ def vector_to_angle(vec):
 def vector_length(vec):
     """Calculate the length of a vector"""
     return math.sqrt(vec[0]**2 + vec[1]**2)
+
 
